@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+#theme {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    transition: background 1.1s ease-in-out;
+    filter: blur(10px);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 100vw;
+    align-items: center;
+}
+
+.box video{
+    border-radius: 10px;
+}
